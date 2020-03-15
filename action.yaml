@@ -1,0 +1,8 @@
+name: "Zeit Now CLI"
+description: "GitHub action that provides Zeit`s Now CLI as-is"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "triangle"
+  color: "black"
