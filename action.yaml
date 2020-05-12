@@ -1,5 +1,5 @@
-name: "Zeit Now CLI"
-description: "GitHub action that provides Zeit`s Now CLI as-is"
+name: "Vercel Deploy"
+description: "GitHub action that provides Vercel`s Now CLI as-is"
 runs:
   using: "docker"
   image: "Dockerfile"
