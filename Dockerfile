@@ -5,7 +5,7 @@ USER node
 WORKDIR /home/node/repo
 
 # installs now CLI globally via yarn
-RUN yarn global add now
+RUN yarn global add vercel
 
 # copies entrypoint script
 COPY --chown=node:node entrypoint.sh /usr/local/bin
