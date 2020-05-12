@@ -7,9 +7,9 @@ This action provides Zeit`s Now CLI as-is, bringing the same experience when usi
 ### Listing deployments
 
 ```yaml
-uses: artemis-tech/zeit-now-cli@v1
+uses: umakers/zeit-now-cli@v1
 env:
-    ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
+    VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
 with:
     args: list # this will list deployments
 ```
@@ -17,9 +17,9 @@ with:
 ### Deploy to production
 
 ```yaml
-uses: artemis-tech/zeit-now-cli@v1
+uses: umakers/zeit-now-cli@v1
 env:
-    ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
+    VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
 with:
     args: --prod # this will deploy to production
 ```
